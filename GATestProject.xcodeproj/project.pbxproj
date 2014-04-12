@@ -15,7 +15,6 @@
 		CD78240618F9BEAA000E618B /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD78240518F9BEAA000E618B /* GAAppDelegate.m */; };
 		CD78240918F9BEAA000E618B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD78240718F9BEAA000E618B /* Main_iPhone.storyboard */; };
 		CD78240C18F9BEAA000E618B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD78240A18F9BEAA000E618B /* Main_iPad.storyboard */; };
-		CD78240F18F9BEAA000E618B /* GAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD78240E18F9BEAA000E618B /* GAViewController.m */; };
 		CD78241118F9BEAA000E618B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD78241018F9BEAA000E618B /* Images.xcassets */; };
 		CD78241818F9BEAA000E618B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD78241718F9BEAA000E618B /* XCTest.framework */; };
 		CD78241918F9BEAA000E618B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F518F9BEAA000E618B /* Foundation.framework */; };
@@ -47,8 +46,6 @@
 		CD78240518F9BEAA000E618B /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAppDelegate.m; sourceTree = "<group>"; };
 		CD78240818F9BEAA000E618B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CD78240B18F9BEAA000E618B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CD78240D18F9BEAA000E618B /* GAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAViewController.h; sourceTree = "<group>"; };
-		CD78240E18F9BEAA000E618B /* GAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAViewController.m; sourceTree = "<group>"; };
 		CD78241018F9BEAA000E618B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD78241618F9BEAA000E618B /* GATestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GATestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD78241718F9BEAA000E618B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,8 +115,6 @@
 				CD78240518F9BEAA000E618B /* GAAppDelegate.m */,
 				CD78240718F9BEAA000E618B /* Main_iPhone.storyboard */,
 				CD78240A18F9BEAA000E618B /* Main_iPad.storyboard */,
-				CD78240D18F9BEAA000E618B /* GAViewController.h */,
-				CD78240E18F9BEAA000E618B /* GAViewController.m */,
 				CD78241018F9BEAA000E618B /* Images.xcassets */,
 				CD7823FC18F9BEAA000E618B /* Supporting Files */,
 			);
@@ -255,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD78240618F9BEAA000E618B /* GAAppDelegate.m in Sources */,
-				CD78240F18F9BEAA000E618B /* GAViewController.m in Sources */,
 				CD78240218F9BEAA000E618B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +389,7 @@
 				GCC_PREFIX_HEADER = "GATestProject/GATestProject-Prefix.pch";
 				INFOPLIST_FILE = "GATestProject/GATestProject-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,6 +403,7 @@
 				GCC_PREFIX_HEADER = "GATestProject/GATestProject-Prefix.pch";
 				INFOPLIST_FILE = "GATestProject/GATestProject-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
