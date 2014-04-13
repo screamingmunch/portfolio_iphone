@@ -15,6 +15,7 @@
 
 {
     NSString *_urlString;
+    NSString *_titleString;
 }
 
 @end
@@ -122,8 +123,39 @@
     // Pass the selected object to the new view controller.
     
     GAWebViewController * webViewController = [segue destinationViewController];
-    webViewController.urlString = @"http://www.linkedin.com/in/laikristine";
+    webViewController.urlString = _urlString;
+    webViewController.navigationItem.title = _titleString;
+
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.row) {
+        case 0:
+            _urlString = @"http://www.linkedin.com/in/laikristine";
+            //_titleString = @"Linkedin";
+            break;
+        case 1:
+            _urlString = @"https://twitter.com/screamingmunch";
+            //_titleString = @"Twitter";
+            break;
+        case 2:
+            _urlString = @"https://github.com/screamingmunch";
+            //_titleString = @"GitHub";
+            break;
+        case 3:
+            _urlString = @"https://screamingmunch.github.io/files/Lai_Kristine_Resume.pdf";
+            //_titleString = @"Resume";
+            break;
+        default:
+            break;
+    }
     
+    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    _titleString = cell.textLabel.text;
+    
+    [self
+     performSegueWithIdentifier:@"SegueToWebView" sender:self];
     
 }
 

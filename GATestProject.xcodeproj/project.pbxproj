@@ -10,6 +10,84 @@
 		CD31209118FB12CD00A28951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD31209018FB12CD00A28951 /* Images.xcassets */; };
 		CD31209418FB153600A28951 /* GASocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31209318FB153600A28951 /* GASocialTableViewController.m */; };
 		CD31209718FB164500A28951 /* GAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31209618FB164500A28951 /* GAWebViewController.m */; };
+		CD31212618FB394700A28951 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CD31209918FB394600A28951 /* .gitignore */; };
+		CD31212718FB394700A28951 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = CD31209A18FB394600A28951 /* .travis.yml */; };
+		CD31212818FB394700A28951 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31209D18FB394600A28951 /* AFHTTPRequestOperation.m */; };
+		CD31212918FB394700A28951 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31209F18FB394600A28951 /* AFHTTPRequestOperationManager.m */; };
+		CD31212A18FB394700A28951 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120A118FB394600A28951 /* AFHTTPSessionManager.m */; };
+		CD31212B18FB394700A28951 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120A418FB394600A28951 /* AFNetworkReachabilityManager.m */; };
+		CD31212C18FB394700A28951 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120A618FB394600A28951 /* AFSecurityPolicy.m */; };
+		CD31212D18FB394700A28951 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120A818FB394600A28951 /* AFURLConnectionOperation.m */; };
+		CD31212E18FB394700A28951 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120AA18FB394600A28951 /* AFURLRequestSerialization.m */; };
+		CD31212F18FB394700A28951 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120AC18FB394600A28951 /* AFURLResponseSerialization.m */; };
+		CD31213018FB394700A28951 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120AE18FB394600A28951 /* AFURLSessionManager.m */; };
+		CD31213118FB394700A28951 /* AFNetworking.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CD3120AF18FB394600A28951 /* AFNetworking.podspec */; };
+		CD31213218FB394700A28951 /* AFNetworking.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = CD3120B018FB394600A28951 /* AFNetworking.xcworkspace */; };
+		CD31213318FB394700A28951 /* CHANGES in Resources */ = {isa = PBXBuildFile; fileRef = CD3120B118FB394600A28951 /* CHANGES */; };
+		CD31213418FB394700A28951 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = CD3120B218FB394600A28951 /* CONTRIBUTING.md */; };
+		CD31213518FB394700A28951 /* adn.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120B418FB394600A28951 /* adn.cer */; };
+		CD31213618FB394700A28951 /* AFNetworking Example.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = CD3120B518FB394600A28951 /* AFNetworking Example.entitlements */; };
+		CD31213718FB394700A28951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120BD18FB394600A28951 /* AppDelegate.m */; };
+		CD31213818FB394700A28951 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120C018FB394600A28951 /* AFAppDotNetAPIClient.m */; };
+		CD31213918FB394700A28951 /* GlobalTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120C318FB394600A28951 /* GlobalTimelineViewController.m */; };
+		CD31213A18FB394700A28951 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120C618FB394600A28951 /* Post.m */; };
+		CD31213B18FB394700A28951 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120C818FB394600A28951 /* User.m */; };
+		CD31213C18FB394700A28951 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120CB18FB394600A28951 /* PostTableViewCell.m */; };
+		CD31213D18FB394700A28951 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3120CC18FB394600A28951 /* Default-568h@2x.png */; };
+		CD31213E18FB394700A28951 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3120CD18FB394600A28951 /* Default.png */; };
+		CD31213F18FB394700A28951 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3120CE18FB394600A28951 /* Default@2x.png */; };
+		CD31214018FB394700A28951 /* digicert_ca_3.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120CF18FB394700A28951 /* digicert_ca_3.cer */; };
+		CD31214118FB394700A28951 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3120D018FB394700A28951 /* MainMenu.xib */; };
+		CD31214218FB394700A28951 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3120D218FB394700A28951 /* Icon.png */; };
+		CD31214318FB394700A28951 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3120D318FB394700A28951 /* Icon@2x.png */; };
+		CD31214418FB394700A28951 /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3120D518FB394700A28951 /* profile-image-placeholder.png */; };
+		CD31214518FB394700A28951 /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3120D618FB394700A28951 /* profile-image-placeholder@2x.png */; };
+		CD31214618FB394700A28951 /* iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3120D718FB394700A28951 /* iOS-Info.plist */; };
+		CD31214718FB394700A28951 /* Mac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3120D818FB394700A28951 /* Mac-Info.plist */; };
+		CD31214818FB394700A28951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3120D918FB394700A28951 /* main.m */; };
+		CD31214918FB394700A28951 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3120DA18FB394700A28951 /* MainMenu.xib */; };
+		CD31214A18FB394700A28951 /* root_ca.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120DC18FB394700A28951 /* root_ca.cer */; };
+		CD31214B18FB394700A28951 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CD3120DD18FB394700A28951 /* LICENSE */; };
+		CD31214C18FB394700A28951 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = CD3120DE18FB394700A28951 /* Rakefile */; };
+		CD31214D18FB394700A28951 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD3120DF18FB394700A28951 /* README.md */; };
+		CD31214E18FB394700A28951 /* AFNetworkingTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3120E518FB394700A28951 /* AFNetworkingTests-Info.plist */; };
+		CD31214F18FB394700A28951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3120E718FB394700A28951 /* InfoPlist.strings */; };
+		CD31215018FB394700A28951 /* iOS Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3120E918FB394700A28951 /* iOS Tests-Info.plist */; };
+		CD31215118FB394700A28951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3120EC18FB394700A28951 /* InfoPlist.strings */; };
+		CD31215218FB394700A28951 /* OS X Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3120EE18FB394700A28951 /* OS X Tests-Info.plist */; };
+		CD31215318FB394700A28951 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CD3120F018FB394700A28951 /* Podfile */; };
+		CD31215418FB394700A28951 /* adn_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120F418FB394700A28951 /* adn_0.cer */; };
+		CD31215518FB394700A28951 /* adn_1.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120F518FB394700A28951 /* adn_1.cer */; };
+		CD31215618FB394700A28951 /* adn_2.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120F618FB394700A28951 /* adn_2.cer */; };
+		CD31215718FB394700A28951 /* Geotrust_Root_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120F818FB394700A28951 /* Geotrust_Root_CA.cer */; };
+		CD31215818FB394700A28951 /* httpbinorg_11212014.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120F918FB394700A28951 /* httpbinorg_11212014.cer */; };
+		CD31215918FB394700A28951 /* httpbin_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120FB18FB394700A28951 /* httpbin_0.cer */; };
+		CD31215A18FB394700A28951 /* httpbin_1.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120FC18FB394700A28951 /* httpbin_1.cer */; };
+		CD31215B18FB394700A28951 /* httpbin_2.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120FD18FB394700A28951 /* httpbin_2.cer */; };
+		CD31215C18FB394700A28951 /* Rapid_SSL_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = CD3120FE18FB394700A28951 /* Rapid_SSL_CA.cer */; };
+		CD31215D18FB394700A28951 /* iOS Tests.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = CD31210018FB394700A28951 /* iOS Tests.xcscheme */; };
+		CD31215E18FB394700A28951 /* OS X Tests.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = CD31210118FB394700A28951 /* OS X Tests.xcscheme */; };
+		CD31215F18FB394700A28951 /* AFHTTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210418FB394700A28951 /* AFHTTPClientTests.m */; };
+		CD31216018FB394700A28951 /* AFHTTPRequestOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210518FB394700A28951 /* AFHTTPRequestOperationTests.m */; };
+		CD31216118FB394700A28951 /* AFImageRequestOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210618FB394700A28951 /* AFImageRequestOperationTests.m */; };
+		CD31216218FB394700A28951 /* AFJSONRequestOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210718FB394700A28951 /* AFJSONRequestOperationTests.m */; };
+		CD31216318FB394700A28951 /* AFMockURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210918FB394700A28951 /* AFMockURLProtocol.m */; };
+		CD31216418FB394700A28951 /* AFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210B18FB394700A28951 /* AFNetworkingTests.m */; };
+		CD31216518FB394700A28951 /* AFURLConnectionOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210C18FB394700A28951 /* AFURLConnectionOperationTests.m */; };
+		CD31216618FB394700A28951 /* AFHTTPRequestOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210D18FB394700A28951 /* AFHTTPRequestOperationTests.m */; };
+		CD31216718FB394700A28951 /* AFHTTPSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210E18FB394700A28951 /* AFHTTPSerializationTests.m */; };
+		CD31216818FB394700A28951 /* AFJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31210F18FB394700A28951 /* AFJSONSerializationTests.m */; };
+		CD31216918FB394700A28951 /* AFPropertyListResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211018FB394700A28951 /* AFPropertyListResponseSerializerTests.m */; };
+		CD31216A18FB394700A28951 /* AFSecurityPolicyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211118FB394700A28951 /* AFSecurityPolicyTests.m */; };
+		CD31216B18FB394700A28951 /* AFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211318FB394700A28951 /* AFTestCase.m */; };
+		CD31216C18FB394700A28951 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211618FB394700A28951 /* AFNetworkActivityIndicatorManager.m */; };
+		CD31216D18FB394700A28951 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211818FB394700A28951 /* UIActivityIndicatorView+AFNetworking.m */; };
+		CD31216E18FB394700A28951 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211A18FB394700A28951 /* UIAlertView+AFNetworking.m */; };
+		CD31216F18FB394700A28951 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211C18FB394700A28951 /* UIButton+AFNetworking.m */; };
+		CD31217018FB394700A28951 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31211E18FB394700A28951 /* UIImageView+AFNetworking.m */; };
+		CD31217118FB394700A28951 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31212118FB394700A28951 /* UIProgressView+AFNetworking.m */; };
+		CD31217218FB394700A28951 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31212318FB394700A28951 /* UIRefreshControl+AFNetworking.m */; };
+		CD31217318FB394700A28951 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31212518FB394700A28951 /* UIWebView+AFNetworking.m */; };
 		CD7823F618F9BEAA000E618B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F518F9BEAA000E618B /* Foundation.framework */; };
 		CD7823F818F9BEAA000E618B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F718F9BEAA000E618B /* CoreGraphics.framework */; };
 		CD7823FA18F9BEAA000E618B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F918F9BEAA000E618B /* UIKit.framework */; };
@@ -27,6 +105,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CD31217518FB394700A28951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3120B618FB394600A28951 /* AFNetworking iOS Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8E469601395739C00DB05C8;
+			remoteInfo = "AFNetworking iOS Example";
+		};
+		CD31217818FB394700A28951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3120B918FB394600A28951 /* AFNetworking Mac Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8129BFB1591061B009BFE23;
+			remoteInfo = "AFNetworking Example";
+		};
+		CD31217C18FB394700A28951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3120E118FB394700A28951 /* AFNetworking Tests.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2902D27817DF4E1100C81C5A;
+			remoteInfo = "iOS Tests";
+		};
+		CD31217E18FB394700A28951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3120E118FB394700A28951 /* AFNetworking Tests.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2902D28C17DF4E2900C81C5A;
+			remoteInfo = "OS X Tests";
+		};
 		CD78241B18F9BEAA000E618B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD7823EA18F9BEAA000E618B /* Project object */;
@@ -42,6 +148,119 @@
 		CD31209318FB153600A28951 /* GASocialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASocialTableViewController.m; sourceTree = "<group>"; };
 		CD31209518FB164500A28951 /* GAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAWebViewController.h; sourceTree = "<group>"; };
 		CD31209618FB164500A28951 /* GAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAWebViewController.m; sourceTree = "<group>"; };
+		CD31209918FB394600A28951 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CD31209A18FB394600A28951 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		CD31209C18FB394600A28951 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CD31209D18FB394600A28951 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CD31209E18FB394600A28951 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CD31209F18FB394600A28951 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CD3120A018FB394600A28951 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CD3120A118FB394600A28951 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CD3120A218FB394600A28951 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CD3120A318FB394600A28951 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CD3120A418FB394600A28951 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CD3120A518FB394600A28951 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CD3120A618FB394600A28951 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CD3120A718FB394600A28951 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CD3120A818FB394600A28951 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CD3120A918FB394600A28951 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CD3120AA18FB394600A28951 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CD3120AB18FB394600A28951 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CD3120AC18FB394600A28951 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CD3120AD18FB394600A28951 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CD3120AE18FB394600A28951 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CD3120AF18FB394600A28951 /* AFNetworking.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AFNetworking.podspec; sourceTree = "<group>"; };
+		CD3120B018FB394600A28951 /* AFNetworking.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = AFNetworking.xcworkspace; sourceTree = "<group>"; };
+		CD3120B118FB394600A28951 /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		CD3120B218FB394600A28951 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		CD3120B418FB394600A28951 /* adn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn.cer; sourceTree = "<group>"; };
+		CD3120B518FB394600A28951 /* AFNetworking Example.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AFNetworking Example.entitlements"; sourceTree = "<group>"; };
+		CD3120B618FB394600A28951 /* AFNetworking iOS Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "AFNetworking iOS Example.xcodeproj"; sourceTree = "<group>"; };
+		CD3120B918FB394600A28951 /* AFNetworking Mac Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "AFNetworking Mac Example.xcodeproj"; sourceTree = "<group>"; };
+		CD3120BC18FB394600A28951 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3120BD18FB394600A28951 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3120BF18FB394600A28951 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		CD3120C018FB394600A28951 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		CD3120C218FB394600A28951 /* GlobalTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTimelineViewController.h; sourceTree = "<group>"; };
+		CD3120C318FB394600A28951 /* GlobalTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTimelineViewController.m; sourceTree = "<group>"; };
+		CD3120C518FB394600A28951 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		CD3120C618FB394600A28951 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		CD3120C718FB394600A28951 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CD3120C818FB394600A28951 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CD3120CA18FB394600A28951 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		CD3120CB18FB394600A28951 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		CD3120CC18FB394600A28951 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD3120CD18FB394600A28951 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD3120CE18FB394600A28951 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD3120CF18FB394700A28951 /* digicert_ca_3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = digicert_ca_3.cer; sourceTree = "<group>"; };
+		CD3120D118FB394700A28951 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD3120D218FB394700A28951 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CD3120D318FB394700A28951 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		CD3120D518FB394700A28951 /* profile-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder.png"; sourceTree = "<group>"; };
+		CD3120D618FB394700A28951 /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
+		CD3120D718FB394700A28951 /* iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS-Info.plist"; sourceTree = "<group>"; };
+		CD3120D818FB394700A28951 /* Mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mac-Info.plist"; sourceTree = "<group>"; };
+		CD3120D918FB394700A28951 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3120DA18FB394700A28951 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CD3120DB18FB394700A28951 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		CD3120DC18FB394700A28951 /* root_ca.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = root_ca.cer; sourceTree = "<group>"; };
+		CD3120DD18FB394700A28951 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CD3120DE18FB394700A28951 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		CD3120DF18FB394700A28951 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CD3120E118FB394700A28951 /* AFNetworking Tests.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "AFNetworking Tests.xcodeproj"; sourceTree = "<group>"; };
+		CD3120E418FB394700A28951 /* AFNetworking-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-Prefix.pch"; sourceTree = "<group>"; };
+		CD3120E518FB394700A28951 /* AFNetworkingTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AFNetworkingTests-Info.plist"; sourceTree = "<group>"; };
+		CD3120E818FB394700A28951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD3120E918FB394700A28951 /* iOS Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS Tests-Info.plist"; sourceTree = "<group>"; };
+		CD3120EA18FB394700A28951 /* iOS Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS Tests-Prefix.pch"; sourceTree = "<group>"; };
+		CD3120ED18FB394700A28951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD3120EE18FB394700A28951 /* OS X Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OS X Tests-Info.plist"; sourceTree = "<group>"; };
+		CD3120EF18FB394700A28951 /* OS X Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OS X Tests-Prefix.pch"; sourceTree = "<group>"; };
+		CD3120F018FB394700A28951 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CD3120F418FB394700A28951 /* adn_0.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn_0.cer; sourceTree = "<group>"; };
+		CD3120F518FB394700A28951 /* adn_1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn_1.cer; sourceTree = "<group>"; };
+		CD3120F618FB394700A28951 /* adn_2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn_2.cer; sourceTree = "<group>"; };
+		CD3120F818FB394700A28951 /* Geotrust_Root_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Geotrust_Root_CA.cer; sourceTree = "<group>"; };
+		CD3120F918FB394700A28951 /* httpbinorg_11212014.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbinorg_11212014.cer; sourceTree = "<group>"; };
+		CD3120FB18FB394700A28951 /* httpbin_0.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbin_0.cer; sourceTree = "<group>"; };
+		CD3120FC18FB394700A28951 /* httpbin_1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbin_1.cer; sourceTree = "<group>"; };
+		CD3120FD18FB394700A28951 /* httpbin_2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbin_2.cer; sourceTree = "<group>"; };
+		CD3120FE18FB394700A28951 /* Rapid_SSL_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rapid_SSL_CA.cer; sourceTree = "<group>"; };
+		CD31210018FB394700A28951 /* iOS Tests.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "iOS Tests.xcscheme"; sourceTree = "<group>"; };
+		CD31210118FB394700A28951 /* OS X Tests.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "OS X Tests.xcscheme"; sourceTree = "<group>"; };
+		CD31210418FB394700A28951 /* AFHTTPClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClientTests.m; sourceTree = "<group>"; };
+		CD31210518FB394700A28951 /* AFHTTPRequestOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationTests.m; sourceTree = "<group>"; };
+		CD31210618FB394700A28951 /* AFImageRequestOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperationTests.m; sourceTree = "<group>"; };
+		CD31210718FB394700A28951 /* AFJSONRequestOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperationTests.m; sourceTree = "<group>"; };
+		CD31210818FB394700A28951 /* AFMockURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMockURLProtocol.h; sourceTree = "<group>"; };
+		CD31210918FB394700A28951 /* AFMockURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMockURLProtocol.m; sourceTree = "<group>"; };
+		CD31210A18FB394700A28951 /* AFNetworkingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkingTests.h; sourceTree = "<group>"; };
+		CD31210B18FB394700A28951 /* AFNetworkingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTests.m; sourceTree = "<group>"; };
+		CD31210C18FB394700A28951 /* AFURLConnectionOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperationTests.m; sourceTree = "<group>"; };
+		CD31210D18FB394700A28951 /* AFHTTPRequestOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationTests.m; sourceTree = "<group>"; };
+		CD31210E18FB394700A28951 /* AFHTTPSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSerializationTests.m; sourceTree = "<group>"; };
+		CD31210F18FB394700A28951 /* AFJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONSerializationTests.m; sourceTree = "<group>"; };
+		CD31211018FB394700A28951 /* AFPropertyListResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListResponseSerializerTests.m; sourceTree = "<group>"; };
+		CD31211118FB394700A28951 /* AFSecurityPolicyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicyTests.m; sourceTree = "<group>"; };
+		CD31211218FB394700A28951 /* AFTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTestCase.h; sourceTree = "<group>"; };
+		CD31211318FB394700A28951 /* AFTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTestCase.m; sourceTree = "<group>"; };
+		CD31211518FB394700A28951 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		CD31211618FB394700A28951 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		CD31211718FB394700A28951 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31211818FB394700A28951 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		CD31211918FB394700A28951 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31211A18FB394700A28951 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		CD31211B18FB394700A28951 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31211C18FB394700A28951 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		CD31211D18FB394700A28951 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31211E18FB394700A28951 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CD31211F18FB394700A28951 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31212018FB394700A28951 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31212118FB394700A28951 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		CD31212218FB394700A28951 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31212318FB394700A28951 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		CD31212418FB394700A28951 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		CD31212518FB394700A28951 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		CD7823F218F9BEAA000E618B /* GATestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GATestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7823F518F9BEAA000E618B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD7823F718F9BEAA000E618B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +306,303 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD31209818FB394600A28951 /* AFNetworking-2.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CD31209918FB394600A28951 /* .gitignore */,
+				CD31209A18FB394600A28951 /* .travis.yml */,
+				CD31209B18FB394600A28951 /* AFNetworking */,
+				CD3120AF18FB394600A28951 /* AFNetworking.podspec */,
+				CD3120B018FB394600A28951 /* AFNetworking.xcworkspace */,
+				CD3120B118FB394600A28951 /* CHANGES */,
+				CD3120B218FB394600A28951 /* CONTRIBUTING.md */,
+				CD3120B318FB394600A28951 /* Example */,
+				CD3120DD18FB394700A28951 /* LICENSE */,
+				CD3120DE18FB394700A28951 /* Rakefile */,
+				CD3120DF18FB394700A28951 /* README.md */,
+				CD3120E018FB394700A28951 /* Tests */,
+				CD31211418FB394700A28951 /* UIKit+AFNetworking */,
+			);
+			path = "AFNetworking-2.2.0";
+			sourceTree = "<group>";
+		};
+		CD31209B18FB394600A28951 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CD31209C18FB394600A28951 /* AFHTTPRequestOperation.h */,
+				CD31209D18FB394600A28951 /* AFHTTPRequestOperation.m */,
+				CD31209E18FB394600A28951 /* AFHTTPRequestOperationManager.h */,
+				CD31209F18FB394600A28951 /* AFHTTPRequestOperationManager.m */,
+				CD3120A018FB394600A28951 /* AFHTTPSessionManager.h */,
+				CD3120A118FB394600A28951 /* AFHTTPSessionManager.m */,
+				CD3120A218FB394600A28951 /* AFNetworking.h */,
+				CD3120A318FB394600A28951 /* AFNetworkReachabilityManager.h */,
+				CD3120A418FB394600A28951 /* AFNetworkReachabilityManager.m */,
+				CD3120A518FB394600A28951 /* AFSecurityPolicy.h */,
+				CD3120A618FB394600A28951 /* AFSecurityPolicy.m */,
+				CD3120A718FB394600A28951 /* AFURLConnectionOperation.h */,
+				CD3120A818FB394600A28951 /* AFURLConnectionOperation.m */,
+				CD3120A918FB394600A28951 /* AFURLRequestSerialization.h */,
+				CD3120AA18FB394600A28951 /* AFURLRequestSerialization.m */,
+				CD3120AB18FB394600A28951 /* AFURLResponseSerialization.h */,
+				CD3120AC18FB394600A28951 /* AFURLResponseSerialization.m */,
+				CD3120AD18FB394600A28951 /* AFURLSessionManager.h */,
+				CD3120AE18FB394600A28951 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CD3120B318FB394600A28951 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120B418FB394600A28951 /* adn.cer */,
+				CD3120B518FB394600A28951 /* AFNetworking Example.entitlements */,
+				CD3120B618FB394600A28951 /* AFNetworking iOS Example.xcodeproj */,
+				CD3120B918FB394600A28951 /* AFNetworking Mac Example.xcodeproj */,
+				CD3120BC18FB394600A28951 /* AppDelegate.h */,
+				CD3120BD18FB394600A28951 /* AppDelegate.m */,
+				CD3120BE18FB394600A28951 /* Classes */,
+				CD3120CC18FB394600A28951 /* Default-568h@2x.png */,
+				CD3120CD18FB394600A28951 /* Default.png */,
+				CD3120CE18FB394600A28951 /* Default@2x.png */,
+				CD3120CF18FB394700A28951 /* digicert_ca_3.cer */,
+				CD3120D018FB394700A28951 /* MainMenu.xib */,
+				CD3120D218FB394700A28951 /* Icon.png */,
+				CD3120D318FB394700A28951 /* Icon@2x.png */,
+				CD3120D418FB394700A28951 /* Images */,
+				CD3120D718FB394700A28951 /* iOS-Info.plist */,
+				CD3120D818FB394700A28951 /* Mac-Info.plist */,
+				CD3120D918FB394700A28951 /* main.m */,
+				CD3120DA18FB394700A28951 /* MainMenu.xib */,
+				CD3120DB18FB394700A28951 /* Prefix.pch */,
+				CD3120DC18FB394700A28951 /* root_ca.cer */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		CD3120B718FB394600A28951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD31217618FB394700A28951 /* AFNetworking iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3120BA18FB394600A28951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD31217918FB394700A28951 /* AFNetworking Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3120BE18FB394600A28951 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120BF18FB394600A28951 /* AFAppDotNetAPIClient.h */,
+				CD3120C018FB394600A28951 /* AFAppDotNetAPIClient.m */,
+				CD3120C118FB394600A28951 /* Controllers */,
+				CD3120C418FB394600A28951 /* Models */,
+				CD3120C918FB394600A28951 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD3120C118FB394600A28951 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120C218FB394600A28951 /* GlobalTimelineViewController.h */,
+				CD3120C318FB394600A28951 /* GlobalTimelineViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD3120C418FB394600A28951 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120C518FB394600A28951 /* Post.h */,
+				CD3120C618FB394600A28951 /* Post.m */,
+				CD3120C718FB394600A28951 /* User.h */,
+				CD3120C818FB394600A28951 /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD3120C918FB394600A28951 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120CA18FB394600A28951 /* PostTableViewCell.h */,
+				CD3120CB18FB394600A28951 /* PostTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD3120D418FB394700A28951 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120D518FB394700A28951 /* profile-image-placeholder.png */,
+				CD3120D618FB394700A28951 /* profile-image-placeholder@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CD3120E018FB394700A28951 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120E118FB394700A28951 /* AFNetworking Tests.xcodeproj */,
+				CD3120E418FB394700A28951 /* AFNetworking-Prefix.pch */,
+				CD3120E518FB394700A28951 /* AFNetworkingTests-Info.plist */,
+				CD3120E618FB394700A28951 /* iOS Tests */,
+				CD3120EB18FB394700A28951 /* OS X Tests */,
+				CD3120F018FB394700A28951 /* Podfile */,
+				CD3120F118FB394700A28951 /* Resources */,
+				CD3120FF18FB394700A28951 /* Schemes */,
+				CD31210218FB394700A28951 /* Tests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CD3120E218FB394700A28951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD31217D18FB394700A28951 /* iOS Tests.xctest */,
+				CD31217F18FB394700A28951 /* OS X Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3120E618FB394700A28951 /* iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120E718FB394700A28951 /* InfoPlist.strings */,
+				CD3120E918FB394700A28951 /* iOS Tests-Info.plist */,
+				CD3120EA18FB394700A28951 /* iOS Tests-Prefix.pch */,
+			);
+			path = "iOS Tests";
+			sourceTree = "<group>";
+		};
+		CD3120EB18FB394700A28951 /* OS X Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120EC18FB394700A28951 /* InfoPlist.strings */,
+				CD3120EE18FB394700A28951 /* OS X Tests-Info.plist */,
+				CD3120EF18FB394700A28951 /* OS X Tests-Prefix.pch */,
+			);
+			path = "OS X Tests";
+			sourceTree = "<group>";
+		};
+		CD3120F118FB394700A28951 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120F218FB394700A28951 /* ADN.net */,
+				CD3120F718FB394700A28951 /* HTTPBin.org */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD3120F218FB394700A28951 /* ADN.net */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120F318FB394700A28951 /* ADNNetServerTrustChain */,
+			);
+			path = ADN.net;
+			sourceTree = "<group>";
+		};
+		CD3120F318FB394700A28951 /* ADNNetServerTrustChain */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120F418FB394700A28951 /* adn_0.cer */,
+				CD3120F518FB394700A28951 /* adn_1.cer */,
+				CD3120F618FB394700A28951 /* adn_2.cer */,
+			);
+			path = ADNNetServerTrustChain;
+			sourceTree = "<group>";
+		};
+		CD3120F718FB394700A28951 /* HTTPBin.org */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120F818FB394700A28951 /* Geotrust_Root_CA.cer */,
+				CD3120F918FB394700A28951 /* httpbinorg_11212014.cer */,
+				CD3120FA18FB394700A28951 /* HTTPBinOrgServerTrustChain */,
+				CD3120FE18FB394700A28951 /* Rapid_SSL_CA.cer */,
+			);
+			path = HTTPBin.org;
+			sourceTree = "<group>";
+		};
+		CD3120FA18FB394700A28951 /* HTTPBinOrgServerTrustChain */ = {
+			isa = PBXGroup;
+			children = (
+				CD3120FB18FB394700A28951 /* httpbin_0.cer */,
+				CD3120FC18FB394700A28951 /* httpbin_1.cer */,
+				CD3120FD18FB394700A28951 /* httpbin_2.cer */,
+			);
+			path = HTTPBinOrgServerTrustChain;
+			sourceTree = "<group>";
+		};
+		CD3120FF18FB394700A28951 /* Schemes */ = {
+			isa = PBXGroup;
+			children = (
+				CD31210018FB394700A28951 /* iOS Tests.xcscheme */,
+				CD31210118FB394700A28951 /* OS X Tests.xcscheme */,
+			);
+			path = Schemes;
+			sourceTree = "<group>";
+		};
+		CD31210218FB394700A28951 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD31210318FB394700A28951 /* 1.0 Tests */,
+				CD31210D18FB394700A28951 /* AFHTTPRequestOperationTests.m */,
+				CD31210E18FB394700A28951 /* AFHTTPSerializationTests.m */,
+				CD31210F18FB394700A28951 /* AFJSONSerializationTests.m */,
+				CD31211018FB394700A28951 /* AFPropertyListResponseSerializerTests.m */,
+				CD31211118FB394700A28951 /* AFSecurityPolicyTests.m */,
+				CD31211218FB394700A28951 /* AFTestCase.h */,
+				CD31211318FB394700A28951 /* AFTestCase.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CD31210318FB394700A28951 /* 1.0 Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD31210418FB394700A28951 /* AFHTTPClientTests.m */,
+				CD31210518FB394700A28951 /* AFHTTPRequestOperationTests.m */,
+				CD31210618FB394700A28951 /* AFImageRequestOperationTests.m */,
+				CD31210718FB394700A28951 /* AFJSONRequestOperationTests.m */,
+				CD31210818FB394700A28951 /* AFMockURLProtocol.h */,
+				CD31210918FB394700A28951 /* AFMockURLProtocol.m */,
+				CD31210A18FB394700A28951 /* AFNetworkingTests.h */,
+				CD31210B18FB394700A28951 /* AFNetworkingTests.m */,
+				CD31210C18FB394700A28951 /* AFURLConnectionOperationTests.m */,
+			);
+			path = "1.0 Tests";
+			sourceTree = "<group>";
+		};
+		CD31211418FB394700A28951 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CD31211518FB394700A28951 /* AFNetworkActivityIndicatorManager.h */,
+				CD31211618FB394700A28951 /* AFNetworkActivityIndicatorManager.m */,
+				CD31211718FB394700A28951 /* UIActivityIndicatorView+AFNetworking.h */,
+				CD31211818FB394700A28951 /* UIActivityIndicatorView+AFNetworking.m */,
+				CD31211918FB394700A28951 /* UIAlertView+AFNetworking.h */,
+				CD31211A18FB394700A28951 /* UIAlertView+AFNetworking.m */,
+				CD31211B18FB394700A28951 /* UIButton+AFNetworking.h */,
+				CD31211C18FB394700A28951 /* UIButton+AFNetworking.m */,
+				CD31211D18FB394700A28951 /* UIImageView+AFNetworking.h */,
+				CD31211E18FB394700A28951 /* UIImageView+AFNetworking.m */,
+				CD31211F18FB394700A28951 /* UIKit+AFNetworking.h */,
+				CD31212018FB394700A28951 /* UIProgressView+AFNetworking.h */,
+				CD31212118FB394700A28951 /* UIProgressView+AFNetworking.m */,
+				CD31212218FB394700A28951 /* UIRefreshControl+AFNetworking.h */,
+				CD31212318FB394700A28951 /* UIRefreshControl+AFNetworking.m */,
+				CD31212418FB394700A28951 /* UIWebView+AFNetworking.h */,
+				CD31212518FB394700A28951 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
 		CD7823E918F9BEAA000E618B = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +647,7 @@
 				CD78240A18F9BEAA000E618B /* Main_iPad.storyboard */,
 				CD31209518FB164500A28951 /* GAWebViewController.h */,
 				CD31209618FB164500A28951 /* GAWebViewController.m */,
+				CD31209818FB394600A28951 /* AFNetworking-2.2.0 */,
 				CD7823FC18F9BEAA000E618B /* Supporting Files */,
 			);
 			path = GATestProject;
@@ -229,6 +746,20 @@
 			mainGroup = CD7823E918F9BEAA000E618B;
 			productRefGroup = CD7823F318F9BEAA000E618B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CD3120B718FB394600A28951 /* Products */;
+					ProjectRef = CD3120B618FB394600A28951 /* AFNetworking iOS Example.xcodeproj */;
+				},
+				{
+					ProductGroup = CD3120BA18FB394600A28951 /* Products */;
+					ProjectRef = CD3120B918FB394600A28951 /* AFNetworking Mac Example.xcodeproj */;
+				},
+				{
+					ProductGroup = CD3120E218FB394700A28951 /* Products */;
+					ProjectRef = CD3120E118FB394700A28951 /* AFNetworking Tests.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CD7823F118F9BEAA000E618B /* GATestProject */,
@@ -237,15 +768,87 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CD31217618FB394700A28951 /* AFNetworking iOS Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "AFNetworking iOS Example.app";
+			remoteRef = CD31217518FB394700A28951 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CD31217918FB394700A28951 /* AFNetworking Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "AFNetworking Example.app";
+			remoteRef = CD31217818FB394700A28951 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CD31217D18FB394700A28951 /* iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS Tests.xctest";
+			remoteRef = CD31217C18FB394700A28951 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CD31217F18FB394700A28951 /* OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OS X Tests.xctest";
+			remoteRef = CD31217E18FB394700A28951 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		CD7823F018F9BEAA000E618B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD31215318FB394700A28951 /* Podfile in Resources */,
+				CD31215E18FB394700A28951 /* OS X Tests.xcscheme in Resources */,
+				CD31214218FB394700A28951 /* Icon.png in Resources */,
+				CD31215118FB394700A28951 /* InfoPlist.strings in Resources */,
+				CD31212718FB394700A28951 /* .travis.yml in Resources */,
+				CD31214B18FB394700A28951 /* LICENSE in Resources */,
+				CD31215A18FB394700A28951 /* httpbin_1.cer in Resources */,
+				CD31214A18FB394700A28951 /* root_ca.cer in Resources */,
+				CD31212618FB394700A28951 /* .gitignore in Resources */,
+				CD31213418FB394700A28951 /* CONTRIBUTING.md in Resources */,
+				CD31214518FB394700A28951 /* profile-image-placeholder@2x.png in Resources */,
+				CD31214118FB394700A28951 /* MainMenu.xib in Resources */,
+				CD31213118FB394700A28951 /* AFNetworking.podspec in Resources */,
+				CD31213318FB394700A28951 /* CHANGES in Resources */,
+				CD31214D18FB394700A28951 /* README.md in Resources */,
 				CD78240C18F9BEAA000E618B /* Main_iPad.storyboard in Resources */,
 				CD31209118FB12CD00A28951 /* Images.xcassets in Resources */,
 				CD78240918F9BEAA000E618B /* Main_iPhone.storyboard in Resources */,
+				CD31215B18FB394700A28951 /* httpbin_2.cer in Resources */,
 				CD78240018F9BEAA000E618B /* InfoPlist.strings in Resources */,
+				CD31214618FB394700A28951 /* iOS-Info.plist in Resources */,
+				CD31214018FB394700A28951 /* digicert_ca_3.cer in Resources */,
+				CD31215418FB394700A28951 /* adn_0.cer in Resources */,
+				CD31215518FB394700A28951 /* adn_1.cer in Resources */,
+				CD31215918FB394700A28951 /* httpbin_0.cer in Resources */,
+				CD31215218FB394700A28951 /* OS X Tests-Info.plist in Resources */,
+				CD31213D18FB394700A28951 /* Default-568h@2x.png in Resources */,
+				CD31214718FB394700A28951 /* Mac-Info.plist in Resources */,
+				CD31214F18FB394700A28951 /* InfoPlist.strings in Resources */,
+				CD31214C18FB394700A28951 /* Rakefile in Resources */,
+				CD31213218FB394700A28951 /* AFNetworking.xcworkspace in Resources */,
+				CD31213E18FB394700A28951 /* Default.png in Resources */,
+				CD31215C18FB394700A28951 /* Rapid_SSL_CA.cer in Resources */,
+				CD31215018FB394700A28951 /* iOS Tests-Info.plist in Resources */,
+				CD31215718FB394700A28951 /* Geotrust_Root_CA.cer in Resources */,
+				CD31215D18FB394700A28951 /* iOS Tests.xcscheme in Resources */,
+				CD31214318FB394700A28951 /* Icon@2x.png in Resources */,
+				CD31213F18FB394700A28951 /* Default@2x.png in Resources */,
+				CD31215818FB394700A28951 /* httpbinorg_11212014.cer in Resources */,
+				CD31214E18FB394700A28951 /* AFNetworkingTests-Info.plist in Resources */,
+				CD31215618FB394700A28951 /* adn_2.cer in Resources */,
+				CD31214418FB394700A28951 /* profile-image-placeholder.png in Resources */,
+				CD31213618FB394700A28951 /* AFNetworking Example.entitlements in Resources */,
+				CD31213518FB394700A28951 /* adn.cer in Resources */,
+				CD31214918FB394700A28951 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +867,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD31213818FB394700A28951 /* AFAppDotNetAPIClient.m in Sources */,
+				CD31217018FB394700A28951 /* UIImageView+AFNetworking.m in Sources */,
+				CD31212D18FB394700A28951 /* AFURLConnectionOperation.m in Sources */,
+				CD31212818FB394700A28951 /* AFHTTPRequestOperation.m in Sources */,
+				CD31216718FB394700A28951 /* AFHTTPSerializationTests.m in Sources */,
+				CD31216618FB394700A28951 /* AFHTTPRequestOperationTests.m in Sources */,
+				CD31212B18FB394700A28951 /* AFNetworkReachabilityManager.m in Sources */,
+				CD31216D18FB394700A28951 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				CD31216918FB394700A28951 /* AFPropertyListResponseSerializerTests.m in Sources */,
+				CD31213018FB394700A28951 /* AFURLSessionManager.m in Sources */,
+				CD31212E18FB394700A28951 /* AFURLRequestSerialization.m in Sources */,
+				CD31216F18FB394700A28951 /* UIButton+AFNetworking.m in Sources */,
 				CD78240618F9BEAA000E618B /* GAAppDelegate.m in Sources */,
+				CD31212F18FB394700A28951 /* AFURLResponseSerialization.m in Sources */,
+				CD31216A18FB394700A28951 /* AFSecurityPolicyTests.m in Sources */,
+				CD31216518FB394700A28951 /* AFURLConnectionOperationTests.m in Sources */,
 				CD78242F18F9E2D9000E618B /* GAAboutMeViewController.m in Sources */,
+				CD31213918FB394700A28951 /* GlobalTimelineViewController.m in Sources */,
 				CD31209718FB164500A28951 /* GAWebViewController.m in Sources */,
+				CD31212918FB394700A28951 /* AFHTTPRequestOperationManager.m in Sources */,
+				CD31212C18FB394700A28951 /* AFSecurityPolicy.m in Sources */,
+				CD31213A18FB394700A28951 /* Post.m in Sources */,
+				CD31216C18FB394700A28951 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				CD31209418FB153600A28951 /* GASocialTableViewController.m in Sources */,
+				CD31217118FB394700A28951 /* UIProgressView+AFNetworking.m in Sources */,
+				CD31216418FB394700A28951 /* AFNetworkingTests.m in Sources */,
+				CD31215F18FB394700A28951 /* AFHTTPClientTests.m in Sources */,
+				CD31216118FB394700A28951 /* AFImageRequestOperationTests.m in Sources */,
+				CD31216218FB394700A28951 /* AFJSONRequestOperationTests.m in Sources */,
+				CD31213B18FB394700A28951 /* User.m in Sources */,
+				CD31216018FB394700A28951 /* AFHTTPRequestOperationTests.m in Sources */,
+				CD31216318FB394700A28951 /* AFMockURLProtocol.m in Sources */,
+				CD31216E18FB394700A28951 /* UIAlertView+AFNetworking.m in Sources */,
 				CD78240218F9BEAA000E618B /* main.m in Sources */,
+				CD31216B18FB394700A28951 /* AFTestCase.m in Sources */,
+				CD31212A18FB394700A28951 /* AFHTTPSessionManager.m in Sources */,
+				CD31213718FB394700A28951 /* AppDelegate.m in Sources */,
+				CD31216818FB394700A28951 /* AFJSONSerializationTests.m in Sources */,
+				CD31217318FB394700A28951 /* UIWebView+AFNetworking.m in Sources */,
+				CD31214818FB394700A28951 /* main.m in Sources */,
+				CD31213C18FB394700A28951 /* PostTableViewCell.m in Sources */,
+				CD31217218FB394700A28951 /* UIRefreshControl+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +931,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CD3120D018FB394700A28951 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3120D118FB394700A28951 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD3120E718FB394700A28951 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3120E818FB394700A28951 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD3120EC18FB394700A28951 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3120ED18FB394700A28951 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		CD7823FE18F9BEAA000E618B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

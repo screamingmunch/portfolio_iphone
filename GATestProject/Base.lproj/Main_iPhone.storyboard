@@ -89,29 +89,13 @@
                     </tabBar>
                     <connections>
                         <segue destination="6el-k6-FlN" kind="relationship" relationship="viewControllers" id="dZp-Bx-6Ak"/>
-                        <segue destination="c3v-4U-d4Q" kind="relationship" relationship="viewControllers" id="3Op-cS-757"/>
                         <segue destination="QWr-M4-nMa" kind="relationship" relationship="viewControllers" id="1HL-ve-tjX"/>
+                        <segue destination="jVU-Zg-VrQ" kind="relationship" relationship="viewControllers" id="9CK-9S-yhc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Pu-YV-hxy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="64" y="344"/>
-        </scene>
-        <!--View Controller - Projects-->
-        <scene sceneID="or3-7a-6FA">
-            <objects>
-                <viewController id="c3v-4U-d4Q" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bKq-PE-UBq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Projects" image="Portfolio" id="pcf-fr-USm"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cEi-du-dZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="638" y="1015"/>
         </scene>
         <!--Social Table View Controller - Social Links-->
         <scene sceneID="5On-jo-o3K">
@@ -144,9 +128,6 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="6QJ-TU-Xrr" kind="push" identifier="socialLinkstoLinkedinSegue" id="Y39-ZN-O2o"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="vMP-ib-sqI" imageView="FAf-Fg-5E3" style="IBUITableViewCellStyleDefault" id="5xf-Eu-kNO">
                                         <rect key="frame" x="0.0" y="108" width="320" height="44"/>
@@ -168,9 +149,6 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="6QJ-TU-Xrr" kind="push" id="cUe-ws-04Q"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="uAH-eP-gBh" imageView="T53-6X-NbS" style="IBUITableViewCellStyleDefault" id="3KY-Dd-UHN">
                                         <rect key="frame" x="0.0" y="152" width="320" height="44"/>
@@ -192,9 +170,6 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="6QJ-TU-Xrr" kind="push" id="NGo-vP-9hZ"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="7jC-kL-bla" imageView="dF6-QF-Rwi" style="IBUITableViewCellStyleDefault" id="ZIg-dF-j5r">
                                         <rect key="frame" x="0.0" y="196" width="320" height="44"/>
@@ -216,9 +191,6 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="6QJ-TU-Xrr" kind="push" id="oqb-pm-ieR"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -231,6 +203,9 @@
                     <navigationItem key="navigationItem" title="Social Links" id="Wsx-GK-Mgz">
                         <barButtonItem key="backBarButtonItem" title="Back" id="TSK-Ki-kbB"/>
                     </navigationItem>
+                    <connections>
+                        <segue destination="6QJ-TU-Xrr" kind="push" identifier="SegueToWebView" id="oj8-bZ-qoY"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="scj-QM-xhF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -280,6 +255,34 @@
             </objects>
             <point key="canvasLocation" x="1061" y="344"/>
         </scene>
+        <!--Navigation Controller - Projects-->
+        <scene sceneID="nFU-Up-P5X">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="jVU-Zg-VrQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Projects" image="Portfolio" id="d5r-7x-pNJ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vw2-VF-pU4">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Vd-h7-Vgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="1175"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="I1a-Mg-gJz">
+            <objects>
+                <viewController id="F9J-eM-bOa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ynk-V6-IdG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gLU-c3-mSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1061" y="1181"/>
+        </scene>
     </scenes>
     <resources>
         <image name="About Me" width="25" height="25"/>
@@ -297,7 +300,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="cUe-ws-04Q"/>
-    </inferredMetricsTieBreakers>
 </document>
