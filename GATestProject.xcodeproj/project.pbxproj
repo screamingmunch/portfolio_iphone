@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD31209118FB12CD00A28951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD31209018FB12CD00A28951 /* Images.xcassets */; };
+		CD31209418FB153600A28951 /* GASocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31209318FB153600A28951 /* GASocialTableViewController.m */; };
+		CD31209718FB164500A28951 /* GAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31209618FB164500A28951 /* GAWebViewController.m */; };
 		CD7823F618F9BEAA000E618B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F518F9BEAA000E618B /* Foundation.framework */; };
 		CD7823F818F9BEAA000E618B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F718F9BEAA000E618B /* CoreGraphics.framework */; };
 		CD7823FA18F9BEAA000E618B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F918F9BEAA000E618B /* UIKit.framework */; };
@@ -15,12 +18,12 @@
 		CD78240618F9BEAA000E618B /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD78240518F9BEAA000E618B /* GAAppDelegate.m */; };
 		CD78240918F9BEAA000E618B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD78240718F9BEAA000E618B /* Main_iPhone.storyboard */; };
 		CD78240C18F9BEAA000E618B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD78240A18F9BEAA000E618B /* Main_iPad.storyboard */; };
-		CD78241118F9BEAA000E618B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD78241018F9BEAA000E618B /* Images.xcassets */; };
 		CD78241818F9BEAA000E618B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD78241718F9BEAA000E618B /* XCTest.framework */; };
 		CD78241918F9BEAA000E618B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F518F9BEAA000E618B /* Foundation.framework */; };
 		CD78241A18F9BEAA000E618B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7823F918F9BEAA000E618B /* UIKit.framework */; };
 		CD78242218F9BEAA000E618B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD78242018F9BEAA000E618B /* InfoPlist.strings */; };
 		CD78242418F9BEAA000E618B /* GATestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD78242318F9BEAA000E618B /* GATestProjectTests.m */; };
+		CD78242F18F9E2D9000E618B /* GAAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD78242E18F9E2D9000E618B /* GAAboutMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD31209018FB12CD00A28951 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD31209218FB153600A28951 /* GASocialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASocialTableViewController.h; sourceTree = "<group>"; };
+		CD31209318FB153600A28951 /* GASocialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASocialTableViewController.m; sourceTree = "<group>"; };
+		CD31209518FB164500A28951 /* GAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAWebViewController.h; sourceTree = "<group>"; };
+		CD31209618FB164500A28951 /* GAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAWebViewController.m; sourceTree = "<group>"; };
 		CD7823F218F9BEAA000E618B /* GATestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GATestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7823F518F9BEAA000E618B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD7823F718F9BEAA000E618B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,12 +54,13 @@
 		CD78240518F9BEAA000E618B /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAppDelegate.m; sourceTree = "<group>"; };
 		CD78240818F9BEAA000E618B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CD78240B18F9BEAA000E618B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CD78241018F9BEAA000E618B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD78241618F9BEAA000E618B /* GATestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GATestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD78241718F9BEAA000E618B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CD78241F18F9BEAA000E618B /* GATestProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GATestProjectTests-Info.plist"; sourceTree = "<group>"; };
 		CD78242118F9BEAA000E618B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD78242318F9BEAA000E618B /* GATestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GATestProjectTests.m; sourceTree = "<group>"; };
+		CD78242D18F9E2D9000E618B /* GAAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAAboutMeViewController.h; sourceTree = "<group>"; };
+		CD78242E18F9E2D9000E618B /* GAAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAAboutMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +123,14 @@
 				CD78240418F9BEAA000E618B /* GAAppDelegate.h */,
 				CD78240518F9BEAA000E618B /* GAAppDelegate.m */,
 				CD78240718F9BEAA000E618B /* Main_iPhone.storyboard */,
+				CD78242D18F9E2D9000E618B /* GAAboutMeViewController.h */,
+				CD78242E18F9E2D9000E618B /* GAAboutMeViewController.m */,
+				CD31209018FB12CD00A28951 /* Images.xcassets */,
+				CD31209218FB153600A28951 /* GASocialTableViewController.h */,
+				CD31209318FB153600A28951 /* GASocialTableViewController.m */,
 				CD78240A18F9BEAA000E618B /* Main_iPad.storyboard */,
-				CD78241018F9BEAA000E618B /* Images.xcassets */,
+				CD31209518FB164500A28951 /* GAWebViewController.h */,
+				CD31209618FB164500A28951 /* GAWebViewController.m */,
 				CD7823FC18F9BEAA000E618B /* Supporting Files */,
 			);
 			path = GATestProject;
@@ -228,7 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD78240C18F9BEAA000E618B /* Main_iPad.storyboard in Resources */,
-				CD78241118F9BEAA000E618B /* Images.xcassets in Resources */,
+				CD31209118FB12CD00A28951 /* Images.xcassets in Resources */,
 				CD78240918F9BEAA000E618B /* Main_iPhone.storyboard in Resources */,
 				CD78240018F9BEAA000E618B /* InfoPlist.strings in Resources */,
 			);
@@ -250,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD78240618F9BEAA000E618B /* GAAppDelegate.m in Sources */,
+				CD78242F18F9E2D9000E618B /* GAAboutMeViewController.m in Sources */,
+				CD31209718FB164500A28951 /* GAWebViewController.m in Sources */,
+				CD31209418FB153600A28951 /* GASocialTableViewController.m in Sources */,
 				CD78240218F9BEAA000E618B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +485,7 @@
 				CD78242918F9BEAA000E618B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD78242A18F9BEAA000E618B /* Build configuration list for PBXNativeTarget "GATestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +494,7 @@
 				CD78242C18F9BEAA000E618B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
